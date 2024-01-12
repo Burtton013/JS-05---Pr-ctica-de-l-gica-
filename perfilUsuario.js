@@ -15,7 +15,7 @@ function mostrarDatos(usuarioInfo) {
     console.log(`Usuario: ${usuarioInfo.username}`);
     console.log(`Edad: ${usuarioInfo.age}`);
     console.log("Peliculafav:");
-    usuarioInfo.favoriteMovies.forEach(pelicula => {
+    usuarioInfo.peliFavorita.forEach(pelicula => {
         console.log(` ${pelicula} es de las mejores pelis.`);
     });
 }
